@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.API", "LibraryApp.API\LibraryApp.API.csproj", "{4FEBBFF5-B86D-47C3-BA05-0B969DEFA496}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.API", "LibraryApp.API\LibraryApp.API.csproj", "{4FEBBFF5-B86D-47C3-BA05-0B969DEFA496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.Blazor.Server", "LibraryApp.Blazor.Server\LibraryApp.Blazor.Server.csproj", "{AEC783CC-635F-4EC6-A685-8BE1EC33A30C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4FEBBFF5-B86D-47C3-BA05-0B969DEFA496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FEBBFF5-B86D-47C3-BA05-0B969DEFA496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FEBBFF5-B86D-47C3-BA05-0B969DEFA496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC783CC-635F-4EC6-A685-8BE1EC33A30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC783CC-635F-4EC6-A685-8BE1EC33A30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC783CC-635F-4EC6-A685-8BE1EC33A30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC783CC-635F-4EC6-A685-8BE1EC33A30C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
